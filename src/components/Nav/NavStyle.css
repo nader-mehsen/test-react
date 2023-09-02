@@ -1,0 +1,50 @@
+nav{
+    width: 95vw;
+    height: 80px;
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    border-radius: 13px;
+    box-shadow: 0 15px 5px 0 rgba(0, 0, 0, 0.25);
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 30px;
+    z-index: 1;
+}
+nav .navitem{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+nav .navitem ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav .navitem ul a{
+    color: black;
+text-decoration: none;
+font-size: 20px;
+padding: 0.7rem 1rem;
+border-radius: 4px;
+}
+nav .navitem ul a:hover{
+    color: white;
+    background-color:#01959a ;
+}
+nav .navitem button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+nav .navitem button:hover{
+    background-color: black;
+    color: white;
+}

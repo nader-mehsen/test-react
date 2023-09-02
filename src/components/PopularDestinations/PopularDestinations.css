@@ -1,0 +1,7 @@
+.Popular h1 , .Popular p{
+    width: max-content;
+    margin: 20px auto;
+}
+.Popular h1{
+    font-size: 3rem;
+}

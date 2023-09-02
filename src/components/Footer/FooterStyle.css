@@ -1,0 +1,45 @@
+footer{
+    width: 90vw;
+    height: 40vh;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+}
+footer .Trippy .Trippy-s1 p{
+    padding-top: 4px;
+}
+footer .Trippy .Trippy-s2 ul{
+    list-style: none;
+}
+footer .Trippy{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding-top: 20px;
+}
+footer .Trippy .Trippy-s2 li{
+    color: white;
+}
+footer .Trippy .Trippy-s2 ul{
+    font-size: 1.8rem;
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+footer .home{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    font-weight: 600;
+}
+footer .home h3{
+    padding-bottom: 8px;
+}
+footer .home ul li{
+    list-style: none;
+    padding-top: 5px;
+}

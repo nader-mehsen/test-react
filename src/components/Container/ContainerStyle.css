@@ -1,0 +1,30 @@
+.Popular .container {
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Popular .container .desc{
+    width: 45%;
+}
+.Popular .container .desc p{
+    width: 100%;
+}
+
+.Popular .container .images{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.Popular .container .images img{
+    width: 49%;
+    height: 250px;
+    border-radius: 13px;
+    
+}
+.Popular .container.reverse{
+    flex-direction: row-reverse;
+
+} 
